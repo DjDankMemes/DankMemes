@@ -1,0 +1,16 @@
+public class Pfunction{
+        private double x, y;
+        public void doNothingAtAll(){
+            if(x<0){
+                y=x-(4/x);
+            }else{
+                y=x+5;
+            }
+        }
+        public double getY(){
+            return y;
+        }
+        public void setX (double xL){
+            x=xL;
+        }
+}
