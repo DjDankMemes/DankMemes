@@ -1,0 +1,10 @@
+import java.util.Scanner;
+public class Runner{
+    public static void main(String[]args){
+        Pfunction af=new Pfunction();
+        Scanner sc=new Scanner(System.in);
+            af.setX(sc.nextDouble());
+            af.doNothingAtAll();
+        System.out.println(af.getY());
+    }
+}
